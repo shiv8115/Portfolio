@@ -51,7 +51,7 @@ Cool NextJS features - </span><br />
 <a href='https://main--steady-churros-e6a86a.netlify.app/'>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 </a>
-<a href='https://github.com/Shivam-vishwakarma991/Website-Portfolio'>
+<a href='https://github.com/shiv8115/Portfolio'>
 <button className='px-8 py-2 mt-4 '>Code</button></a>
 
           

@@ -22,7 +22,7 @@ const dao = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Decentralized Credit System</h2>
+          <h2 className='py-2'>Staking Contract</h2>
           <h3> </h3>
         </div>
       </div>
@@ -35,16 +35,17 @@ const dao = () => {
           <h2 >Overview</h2>
         
         <p className='py-3'>
-        <b> Designed and implemented a simple web3 application that showcases my understanding of blockchain technology, smart contract development and ReactJS. </b> <br/> <br/>
+        <b> Implemented smart contract that showcases my understanding of blockchain technology and critical way of thinking </b> <br/> <br/>
 
-        📌 The application will demonstrate a simple credit system using a smart contract deployed on Sepolia test network. 
-  <br/> 📌 Developed a smart contract using Solidity. This contract includes: <br/>
-  📌 A basic credit system, where each account starts with a credit balance of 1000, <br/>
-  📌 A function that allows for transferring credits between accounts. This function checks if the sender has enough credits to send and update the balances accordingly. <br/>
-  📌 A function that returns the credit balance of a given account. <br/>
-  📌 Implemented a "mint" function that gives a user a certain number of credits, but can only be called by the owner of the contract.
+        📌 The contract Contract should be Upgradeable and TwoStepOwnable 
+  <br/> 📌 The whitelist can be updated by the owner of the contract<br/>
+  📌 Use OZs Enumerable Address Set to maintain the list <br/>
+  📌 Use OZs AccessControl lib for putting role checks <br/>
+  📌 The contract generates reward tokens for the user based on how long the user has staked their assets <br/>
+  📌 1 reward token is to be given for every 5 blocks added in chain for users staking period.
 <br/> <br/>
-   PS- Add sepolia test network to your Metamask wallet before clicking on the demo button 😮‍💨
+   Note - There is start and end time of staking period, user cannot deposit before start and after end time
+No reward is generated after the end time of the staking.
 
 
         </p>

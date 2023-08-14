@@ -321,20 +321,66 @@ const Skills = () => {
           </div>
 
           <h2 className="py-6 text-xl ">Problem Solving skills(Link)</h2>
-          <a href="https://leetcode.com/sk811586/" target = "_blank">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                <div className="grid gap-4 justify-center items-center">
-                  <div className="m-auto">
-                    <Image src={leetcode} width={100} height={70} alt="/" />
-                  </div>
-                  {/* <div>
-                            <h3 className='flex flex-col items-center justify-center'> </h3>
-                        </div> */}
-                </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <a href="https://leetcode.com/sk811586/" target = "_blank"> 
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={leetcode} width={90} height={70} alt="/" />
               </div>
             </div>
+            
+          </div>
           </a>
+
+          <a href="https://auth.geeksforgeeks.org/user/codebeans/practice/" target = "_blank"> 
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={gfg} width={450} height={70} alt="/" />
+              </div>
+            </div>
+            
+          </div>
+          </a>
+
+          <a href="https://www.codechef.com/users/sk811586" target = "_blank"> 
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={codechef} width={150} height={70} alt="/" />
+              </div>
+            </div>
+            
+          </div>
+          </a>
+
+          <a href="https://www.hackerrank.com/sk811586?hr_r=1" target = "_blank"> 
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={hacker} width={100} height={70} alt="/" />
+              </div>
+            </div>
+            
+          </div>
+          </a>
+
+
+          {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={javaimg} width={64} height={64} 
+                            alt="/" 
+                        />
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>JAVA SCRIPT</h3>
+                        </div>
+                    </div>
+                </div> */}
+        </div>
+
         </div>
       </div>
     </div>

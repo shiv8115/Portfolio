@@ -28,9 +28,9 @@ const Contact = () => {
                 />
         </div>
         <div>
-            <h2 className='py-2'> Shivam Vishwakarma</h2>
+            <h2 className='py-2'> Shivam Singh</h2>
             <p >Blockchain Developer</p>
-            <p className='py-4'>I am available for Internship or full-time positions. Contact me and let's have a talk.</p>
+            <p className='py-4'>I am available for part-time and full-time positions. Contact me and let's have a talk.</p>
         </div>
         <div>
         <p className=' uppercase pt-8'>Connect with me</p>
@@ -39,7 +39,7 @@ const Contact = () => {
 <div className='flex items-center justify-between py-4'>
 
 <a
-      href="https://www.linkedin.com/in/shivam-vishwakarma-a26562204/"
+      href="https://www.linkedin.com/in/shivam-kumar-singh-8b35131a9"
       target="_blank"
       rel="noreferrer"
     >
@@ -51,7 +51,7 @@ const Contact = () => {
 
 
   <a
-      href="https://github.com/Shivam-vishwakarma991"
+      href="https://github.com/shiv8115"
       target="_blank"
       rel="noreferrer"
     >
@@ -60,7 +60,7 @@ const Contact = () => {
   </div>
   </a>
   <a
-      href="https://twitter.com/shivamv49903692"
+      href="https://twitter.com/Shivams8115"
       target="_blank"
       rel="noreferrer"
     >
@@ -69,7 +69,7 @@ const Contact = () => {
   </div>
   </a>
   <a
-      href="mailto: shivamvishwakarma212@gmail.com"
+      href="mailto: sk811586@gmail.com"
       target="_blank"
       rel="noreferrer"
     >
@@ -88,7 +88,7 @@ const Contact = () => {
 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
     <div className='p-4' >
 
-        <form action="https://getform.io/f/c69d69ae-3a62-436c-b763-27a51f60b9db"
+        <form action="https://getform.io/f/891a15c5-c742-442c-aa38-b982df958d95"
         method="POST"
         encType="multipart/form-data"
         >
@@ -126,9 +126,10 @@ const Contact = () => {
             </div>
 
             <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
+                  <label className='uppercase text-sm py-2' >Message</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
+                    placeholder='Mention phone number or email address in message'
                     rows='10'
                     name='message'
                   ></textarea>

@@ -30,8 +30,6 @@ const Main = () => {
             <RiLinkedinFill />
           </div>
           </a>
-
-
           <a
               href="https://github.com/shiv8115"
               target="_blank"

@@ -19,20 +19,20 @@ const Projects = () => {
 
         <div className='grid md:grid-cols-2 gap-8'>
            <Projectitems title='Portfolio-Site' backgroundImg={PortfolioImg} projectUrl='/portfolio' Stack="Next Js"/>
-           <Projectitems title='Krypt' backgroundImg={kryptImg} projectUrl='/krypt' Stack="React Js" />
+           <Projectitems title='My Wallet' backgroundImg={kryptImg} projectUrl='/krypt' Stack="React Js" />
 
-           <Projectitems title='Decentralized Credit System' backgroundImg={CreditImg} projectUrl='/credit' Stack="React Js"/>
+           <Projectitems title='Staking Contract' backgroundImg={CreditImg} projectUrl='/credit' Stack="Solidity, Hardhat"/>
 
-           <Projectitems title='DAO DAPP' backgroundImg={daoImg} projectUrl='/dao' Stack="React Js"/>
+           {/* <Projectitems title='JockyBoaBoxerClub' backgroundImg={daoImg} projectUrl='/dao' Stack="React Js"/> */}
             
-           <Projectitems title='Decentralized Wallet' backgroundImg={walletImg} projectUrl='/Wallet' Stack="React Js"/>
+           {/* <Projectitems title='Decentralized Wallet' backgroundImg={walletImg} projectUrl='/Wallet' Stack="React Js"/>
 
 
            <Projectitems title=' Responsive Landing Page' backgroundImg={PageImg} projectUrl='/landingpage' Stack="React Js"/>
         
             
            <Projectitems title='Drawing App' backgroundImg={DrawingImg} projectUrl='/drawing' Stack="Canva"/>
-        
+         */}
            </div>
 
             </div>
