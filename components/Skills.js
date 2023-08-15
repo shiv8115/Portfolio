@@ -6,7 +6,6 @@ import htmlimg from "../public/assets/Skills/htmllogo.png";
 import cssimg from "../public/assets/Skills/csslogo.png";
 import javaimg from "../public/assets/Skills/javascriptlogo.png";
 import reactimg from "../public/assets/Frameworks/reactLOGO.png";
-import tail from "../public/assets/Frameworks/tailwindLOGO.png";
 import express from "../public/assets/Frameworks/express.png";
 import chai from "../public/assets/Frameworks/chai.png";
 import mocha from "../public/assets/Frameworks/mocha.png";
@@ -18,13 +17,12 @@ import alchemy from "../public/assets/Frameworks/alchemy.png";
 import eth from "../public/assets/Frameworks/ETHERJSlogo.png";
 import web from "../public/assets/Frameworks/web3jsLOGO.png";
 import node from "../public/assets/Frameworks/nodejsLOGO.png";
-import truff from "../public/assets/Frameworks/truffleLOGO.png";
+// import truff from "../public/assets/Frameworks/truffleLOGO.png";
 import hardhat from "../public/assets/Frameworks/hardhatLOGO.png";
 import remix from "../public/assets/Tools/REMIX.png";
-import infu from "../public/assets/Tools/infura.png";
 import ganace from "../public/assets/Tools/GANACHE.png";
 import meta from "../public/assets/Tools/metamask.png";
-import Link from "next/link";
+// import Link from "next/link";
 const Skills = () => {
   return (
     <div id="skills" className="w-full h-auto p-2 ">
