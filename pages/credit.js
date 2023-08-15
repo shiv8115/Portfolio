@@ -51,13 +51,13 @@ No reward is generated after the end time of the staking.
         </p>
  
 
-<a href='https://shivam-vishwakarma991.github.io/Decentralised-Credit-system/'>
+<a href='https://github.com/shiv8115/Staking-Contract/tree/master' target='_blank'>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 </a>
 
 
 
-<a href='https://github.com/Shivam-vishwakarma991/Decentralised-Credit-system'>
+<a href='https://github.com/shiv8115/Staking-Contract/tree/master' target='_blank'>
 <button className='px-8 py-2 mt-4 '>Code</button>
 </a>
           

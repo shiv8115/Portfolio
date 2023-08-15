@@ -21,7 +21,7 @@ const Projects = () => {
            <Projectitems title='Portfolio-Site' backgroundImg={PortfolioImg} projectUrl='/portfolio' Stack="Next Js"/>
            <Projectitems title='My Wallet' backgroundImg={kryptImg} projectUrl='/krypt' Stack="React Js" />
 
-           <Projectitems title='Staking Contract' backgroundImg={CreditImg} projectUrl='/credit' Stack="Solidity, Hardhat"/>
+           <Projectitems title='Staking Contract' backgroundImg={CreditImg} projectUrl='/credit' Stack="Solidity, Hardhat, JavaScript, Chai, Mocha"/>
 
            <Projectitems title='NFT MarketPlace contract' backgroundImg={daoImg} projectUrl='/nftMarketplace' Stack="Solidity, Hardhat, JavaScript, Blockchain"/>
             
