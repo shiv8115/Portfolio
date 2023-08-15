@@ -68,30 +68,30 @@ No reward is generated after the end time of the staking.
           <div className='p-2'>
           <p className='text-center font-bold pb-2'>Technologies</p>
           <div className='grid grid-cols-3 md:grid-cols-1' >
-            <p className='text-gray-600 py-2 flex items-center'>
+            {/* <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill  className='pr-1'/>  React.js
-              </p>
+              </p> */}
 
               <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  Web3.js
+              <RiRadioButtonFill  className='pr-1'/>  Ether.js
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill  className='pr-1'/>  Solidity
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  Truffle
+              <RiRadioButtonFill  className='pr-1'/>  Hardhat
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill  className='pr-1'/>  Metamask
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
+              {/* <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill  className='pr-1'/>  Alchemy
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill  className='pr-1'/>  Css
-              </p>
+              </p> */}
 
                    
        </div>

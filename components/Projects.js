@@ -23,7 +23,7 @@ const Projects = () => {
 
            <Projectitems title='Staking Contract' backgroundImg={CreditImg} projectUrl='/credit' Stack="Solidity, Hardhat"/>
 
-           {/* <Projectitems title='JockyBoaBoxerClub' backgroundImg={daoImg} projectUrl='/dao' Stack="React Js"/> */}
+           <Projectitems title='NFT MarketPlace contract' backgroundImg={daoImg} projectUrl='/nftMarketplace' Stack="Solidity, Hardhat, JavaScript, Blockchain"/>
             
            {/* <Projectitems title='Decentralized Wallet' backgroundImg={walletImg} projectUrl='/Wallet' Stack="React Js"/>
 

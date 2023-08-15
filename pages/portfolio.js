@@ -4,6 +4,7 @@ import Image from 'next/legacy/image'
 import portfolioImg from './../public/assets/Projects/portfolio.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
+import About from '@/components/About'
 
 
 
@@ -48,7 +49,7 @@ Cool NextJS features - </span><br />
             Used Incorporate lazy loading images as well as the built in router <br />  <br />
           </p>
 
-<a href='https://main--steady-churros-e6a86a.netlify.app/'>
+<a href=''>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 </a>
 <a href='https://github.com/shiv8115/Portfolio'>
