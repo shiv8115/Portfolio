@@ -48,7 +48,7 @@ const Krypt = () => {
 <p>📌 As challenging as it was to implement this project, Being my first Decentralised application, I was able to explore a lot about blockchain development, Solidity Smart contracts, Metamask and all other Technologies.</p>
 </ul>
 
-<a href='https://github.com/shiv8115/My-Wallet-App' target='_blank'>
+<a href='https://my-wallet-app-sigma.vercel.app/' target='_blank'>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 </a>
 <a href='https://github.com/shiv8115/My-Wallet-App' target='_blank'>
