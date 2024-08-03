@@ -1,8 +1,6 @@
 /* eslint react/no-unescaped-entiities */
 import React from 'react'
 import Link from 'next/link'
-
-
 import ContactImg from '../public/contact.png'
 import Image from 'next/image'
 import {AiFillGithub, AiOutlineTwitter, AiOutlineMail} from 'react-icons/ai'
@@ -29,7 +27,7 @@ const Contact = () => {
         </div>
         <div>
             <h2 className='py-2'> Shivam Singh</h2>
-            <p >Blockchain Developer</p>
+            <p >Software Developer</p>
             <p className='py-4'>I am available for part-time and full-time positions. Contact me and let's have a talk.</p>
         </div>
         <div>

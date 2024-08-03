@@ -4,7 +4,7 @@ import React from 'react'
 import kryptImg from '../public/assets/Projects/krypt.png';
 import DrawingImg from '../public/assets/Projects/drawing.png';
 import PortfolioImg from '../public/assets/Projects/portfolio.png';
-import openRiverImg from '../public/assets/Projects/openriver.png';
+import terraBlu from '../public/assets/Projects/terraBlu.png';
 import daoImg from '../public/assets/Projects/dao.png';
 import walletImg from '../public/assets/Projects/wallet.png';
 import CreditImg from '../public/assets/Projects/Credit.png';
@@ -19,22 +19,8 @@ const Projects = () => {
         <h2 className='py-4'>Have a look at what I've built</h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
-          <Projectitems title='Open River MarketPlace' backgroundImg={openRiverImg} projectUrl='/openriver' Stack="Next Js"/>
-           <Projectitems title='Portfolio-Site' backgroundImg={PortfolioImg} projectUrl='/portfolio' Stack="Next Js"/>
-           <Projectitems title='My Wallet' backgroundImg={kryptImg} projectUrl='/krypt' Stack="React Js" />
-
-           <Projectitems title='Staking Contract' backgroundImg={CreditImg} projectUrl='/credit' Stack="Solidity, Hardhat, JavaScript, Chai, Mocha"/>
-
-           <Projectitems title='NFT MarketPlace contract' backgroundImg={daoImg} projectUrl='/nftMarketplace' Stack="Solidity, Hardhat, JavaScript, Blockchain"/>
-            
-           {/* <Projectitems title='Decentralized Wallet' backgroundImg={walletImg} projectUrl='/Wallet' Stack="React Js"/>
-
-
-           <Projectitems title=' Responsive Landing Page' backgroundImg={PageImg} projectUrl='/landingpage' Stack="React Js"/>
-        
-            
-           <Projectitems title='Drawing App' backgroundImg={DrawingImg} projectUrl='/drawing' Stack="Canva"/>
-         */}
+          <Projectitems title='Greenwise Platform' backgroundImg={terraBlu} projectUrl='/greenwise' Stack="Next Js, NodeJs, Postgress, Azure, Blockchain"/>
+           <Projectitems title='My Wallet' backgroundImg={kryptImg} projectUrl='/krypt' Stack="React Js, Blockchain, Solidity" />
            </div>
 
             </div>
