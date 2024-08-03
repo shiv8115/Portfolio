@@ -4,7 +4,7 @@ import React from 'react'
 import kryptImg from '../public/assets/Projects/krypt.png';
 import DrawingImg from '../public/assets/Projects/drawing.png';
 import PortfolioImg from '../public/assets/Projects/portfolio.png';
-import terraBlu from '../public/assets/Projects/terraBlu.png';
+import terraBlu from '../public/assets/Projects/terrablu.png';
 import daoImg from '../public/assets/Projects/dao.png';
 import walletImg from '../public/assets/Projects/wallet.png';
 import CreditImg from '../public/assets/Projects/Credit.png';
