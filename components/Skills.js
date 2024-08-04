@@ -13,15 +13,17 @@ import leetcode from "../public/assets/Frameworks/leetcode.png";
 import gfg from "../public/assets/Frameworks/gfg.png";
 import hacker from "../public/assets/Frameworks/hacker.png";
 import codechef from "../public/assets/Frameworks/codechef.png";
-import alchemy from "../public/assets/Frameworks/Alchemy.png";
+// import alchemy from "../public/assets/Frameworks/Alchemy.png";
 import eth from "../public/assets/Frameworks/ETHERJSlogo.png";
 import web from "../public/assets/Frameworks/web3jsLOGO.png";
 import node from "../public/assets/Frameworks/nodejsLOGO.png";
 // import truff from "../public/assets/Frameworks/truffleLOGO.png";
 import hardhat from "../public/assets/Frameworks/hardhatLOGO.png";
 import remix from "../public/assets/Tools/REMIX.png";
-import ganace from "../public/assets/Tools/GANACHE.png";
+import ganace from "../public/assets/Tools/jira.png";
 import meta from "../public/assets/Tools/metamask.png";
+import alchemy from "../public/assets/Tools/git1.png";
+
 // import Link from "next/link";
 const Skills = () => {
   return (
@@ -285,7 +287,7 @@ const Skills = () => {
                 </div>
                 <div>
                   <h3 className="flex flex-col items-center justify-center">
-                    ALCHEMY
+                    BITBUCKET
                   </h3>
                 </div>
               </div>
@@ -298,7 +300,7 @@ const Skills = () => {
                 </div>
                 <div>
                   <h3 className="flex flex-col items-center justify-center">
-                    GANACHE
+                    JIRA
                   </h3>
                 </div>
               </div>

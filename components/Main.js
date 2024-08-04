@@ -24,7 +24,7 @@ const Main = () => {
           </h1>
 
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
-            I am Shivam Singh, a passionate Full Stack Developer with a deep expertise in building scalable web applications using React.js, Next.js, Node.js, and Express.js. With a robust foundation in JavaScript and a keen interest in blockchain technology, I specialize in developing secure and efficient smart contracts using Solidity. My experience spans across creating innovative platforms like TerraBlu, which leverages blockchain to drive environmental sustainability. I thrive in solving complex challenges, whether it's optimizing backend API frameworks or integrating seamless front-end experiences. Beyond development, I'm committed to continuous learning and actively engage in competitive programming, where I've achieved notable global rankings.
+          I am Shivam Singh, a Full Stack Developer with expertise in React.js, Next.js, Node.js, and Express.js. I specialize in developing scalable web applications and secure smart contracts using Solidity. My experience includes creating platforms like TerraBlu, which uses blockchain for environmental sustainability. I'm skilled in optimizing backend APIs and crafting seamless front-end experiences. I also engage in continuous learning and competitive programming, where I've achieved notable global rankings.
           </p>
 
           <div className="flex items-center justify-between max-w-[400px] m-auto py-4">

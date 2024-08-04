@@ -85,61 +85,52 @@ const Contact = () => {
 
 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
     <div className='p-4' >
-
         <form action="https://getform.io/f/891a15c5-c742-442c-aa38-b982df958d95"
-        method="POST"
-        encType="multipart/form-data"
-        >
+              method="POST"
+              encType="multipart/form-data">
             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>
                         Name
                     </label>
-                    <input  className='border-2 rounded-lg p-3 flex border-gray-300' type="text" required/>
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" required />
                 </div>
-
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>
                         Phone Number
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="phone" />
                 </div>
-
             </div>
-
             <div className='flex flex-col py-2'>
-            <label className='uppercase text-sm py-2'>
-                        EMAIL
-                    </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" required/>
-
+                <label className='uppercase text-sm py-2'>
+                    EMAIL
+                </label>
+                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email" required />
             </div>
-
             <div className='flex flex-col py-2'>
-            <label className='uppercase text-sm py-2'>
-                        SUBJECT
-                    </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="TEXT" required />
+                <label className='uppercase text-sm py-2'>
+                    SUBJECT
+                </label>
+                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="subject" required />
             </div>
-
             <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2' >Message</label>
-                  <textarea
+                <label className='uppercase text-sm py-2'>Message</label>
+                <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     placeholder='Mention phone number or email address in message'
                     rows='10'
                     name='message'
-                  ></textarea>
-                </div>
-
-                <button className=' hover:scale-105 ease-in duration-300 w-full p-4 text-gray-100 mt-4'>
-                  Send Message
-                </button>
+                    required
+                ></textarea>
+            </div>
+            <button className='hover:scale-105 ease-in duration-300 w-full p-4 text-gray-100 mt-4'>
+                Send Message
+            </button>
         </form>
     </div>
-
 </div>
+
     </div>
     
     <div className='flex justify-center py-12'>
