@@ -67,7 +67,7 @@ const Navbar = () => {
             <Link href='/#contact'>
               <li className='ml-10 text-sm uppercase font-semibold hover:border-b'>Contact</li>
             </Link>
-            <a href='https://drive.google.com/file/d/10qEE2b5TNRTrkpE1_gH9BBsS3XsDn7P1/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/16uk6GGVkVRveWVQCgb7AGQsEvkI1BI6U/view?usp=sharing' target='_blank' rel='noreferrer'>
               <li className=' me-5 ml-10 text-sm uppercase font-semibold hover:border-b'>View Resume</li>
             </a>
           </ul>

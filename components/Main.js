@@ -8,10 +8,10 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+          {/* <p className="uppercase text-sm tracking-widest text-gray-600">
             {' '}
             let's build something together
-          </p>
+          </p> */}
 
           <h1 className="py-4 text-gray-700">
             {' '}
@@ -65,7 +65,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://drive.google.com/file/d/10qEE2b5TNRTrkpE1_gH9BBsS3XsDn7P1/view?usp=sharing"
+              href="https://drive.google.com/file/d/16uk6GGVkVRveWVQCgb7AGQsEvkI1BI6U/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
