@@ -20,6 +20,8 @@ import node from "../public/assets/Frameworks/nodejsLOGO.png";
 // import truff from "../public/assets/Frameworks/truffleLOGO.png";
 import hardhat from "../public/assets/Frameworks/hardhatLOGO.png";
 import remix from "../public/assets/Tools/REMIX.png";
+import vscode from "../public/assets/Tools/vscode.jpeg";
+import azure from "../public/assets/Tools/azure.png";
 import ganace from "../public/assets/Tools/jira.png";
 import meta from "../public/assets/Tools/metamask.png";
 import alchemy from "../public/assets/Tools/git1.png";
@@ -74,7 +76,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={htmlimg} width={64} height={64} alt="/" />
@@ -98,7 +100,7 @@ const Skills = () => {
                 </h3>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -265,16 +267,16 @@ const Skills = () => {
                 </div>
             </div> */}
 
-          <h2 className="py-6 text-xl ">Tools I am Familiar with</h2>
+          <h2 className="py-6 text-xl ">Platform I am Familiar with</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={remix} width={64} height={64} alt="/" />
+                  <Image src={vscode} width={64} height={64} alt="/" />
                 </div>
                 <div>
                   <h3 className="flex flex-col items-center justify-center">
-                    REMIX IDE
+                    VS CODE
                   </h3>
                 </div>
               </div>
@@ -309,11 +311,11 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={meta} width={64} height={64} alt="/" />
+                  <Image src={azure} width={64} height={64} alt="/" />
                 </div>
                 <div>
                   <h3 className="flex flex-col items-center justify-center">
-                    META MASK
+                   AZURE
                   </h3>
                 </div>
               </div>
