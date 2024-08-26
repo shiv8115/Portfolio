@@ -12,7 +12,7 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Who I Am testing</h2>
 
           <p>
             🔭 I'm a dedicated and results-driven Software Developer with over a year of hands-on experience in full-stack development and blockchain technology. Currently, I am contributing to innovative projects at AskGalore Digital India Pvt Ltd, where I lead the development of TerraBlu, a blockchain-based carbon emission calculator and offset application.
