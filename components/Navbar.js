@@ -127,7 +127,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <div className='me-4'>
-              <a href='https://drive.google.com/file/d/10qEE2b5TNRTrkpE1_gH9BBsS3XsDn7P1/view?usp=sharing' target='_blank' rel='noreferrer'>
+              <a href='https://drive.google.com/file/d/1RtMS1pUCZAI0UhM-vywMaSQZdjmVaDmx/view?usp=sharing' target='_blank' rel='noreferrer'>
                 <li onClick={() => setnav(false)} className='py-2 text-sm font-semibold'>
                   View Resume
                 </li>

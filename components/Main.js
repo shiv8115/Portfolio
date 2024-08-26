@@ -69,7 +69,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://drive.google.com/file/d/16uk6GGVkVRveWVQCgb7AGQsEvkI1BI6U/view?usp=sharing"
+              href="https://drive.google.com/file/d/1RtMS1pUCZAI0UhM-vywMaSQZdjmVaDmx/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
