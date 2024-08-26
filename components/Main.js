@@ -1,6 +1,11 @@
 /* eslint react/no-unescaped-entiities */
 import React from 'react';
-import { AiFillGithub, AiOutlineTwitter, AiOutlineMail, AiOutlineFilePdf } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiOutlineMail,
+  AiOutlineFilePdf,
+} from 'react-icons/ai';
 import { RiLinkedinFill } from 'react-icons/ri';
 
 const Main = () => {
@@ -8,11 +13,6 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          {/* <p className="uppercase text-sm tracking-widest text-gray-600">
-            {' '}
-            let's build something together
-          </p> */}
-
           <h1 className="py-4 text-gray-700">
             {' '}
             Hey, I'm <span className="text-[#5651e5]">Shivam Singh </span>{' '}
@@ -24,7 +24,11 @@ const Main = () => {
           </h1>
 
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
-          A Full Stack Developer skilled in React.js, Next.js, Node.js, and Express.js. I create scalable web apps and smart contracts with Solidity, including TerraBlu for blockchain sustainability. I optimize backend APIs, craft seamless front-ends, and excel in competitive programming.
+            A Full Stack Developer skilled in React.js, Next.js, Node.js, and
+            Express.js. I create scalable web apps and smart contracts with
+            Solidity, including TerraBlu for blockchain sustainability. I
+            optimize backend APIs, craft seamless front-ends, and excel in
+            competitive programming.
           </p>
 
           <div className="flex items-center justify-between max-w-[400px] m-auto py-4">
