@@ -15,7 +15,7 @@ const Main = () => {
         <div>
           <h1 className="py-4 text-gray-700">
             {' '}
-            Hey, I'm <span className="text-[#5651e5]">Shivam Singh </span>{' '}
+            Hey, I'm <span className="text-[#5651e5]">Shivam Singh test </span>{' '}
           </h1>
 
           <h1 className="py-25 uppercase text-[200%] text-gray-700">
